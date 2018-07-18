@@ -1,0 +1,29 @@
+
+
+.StepSequencer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.StepSequencer button {
+    border: none;
+    background-color: #eee;
+    padding: 4px;
+    text-align: center;
+}
+  
+button {
+    color: #000;   
+    background-color: #fff;
+    font-size: 12px;
+}
+button.on {
+    color: #fff;
+    background-color: #333;
+}
+
+button:focus {
+    outline: none;
+    background-color: #aaa;
+}
